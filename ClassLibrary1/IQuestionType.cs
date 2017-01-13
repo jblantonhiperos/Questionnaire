@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Workflow
+    public interface IQuestionType
     {
-        public string Name { get; set; }
-        public List<Questionnaire> Questionnaires { get; set; }
+        List<IInputType> Inputs { get; set; }
+        bool IsValid();
+
     }
 }

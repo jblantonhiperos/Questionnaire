@@ -37,7 +37,7 @@ namespace Models
         }
         
         public string ExpressionFormula { get; set; }
-        public List<ElementInstance> Dependencies { get; set; }
+        public List<Element> Dependencies { get; set; }
 
         public object Evaluate()
         {
@@ -55,7 +55,7 @@ namespace Models
             
             foreach (Element dependency in Dependencies)
             {
-                reg.RegisterSymbol(dependency.Name, ((ElementInstance) dependency).ExpressionResponse);
+                reg.RegisterSymbol(dependency.Name, ((Element) dependency).ExpressionResponse);
             }
             return reg;
         }

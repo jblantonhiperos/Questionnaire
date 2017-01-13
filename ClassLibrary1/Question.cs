@@ -12,10 +12,11 @@ namespace Models
         public IQuestionType Type { get; set; }
         public Answer Answer { get; set; }
 
-        //TODO: this might need to happen client side
-        public object ExpressionResponse
+        public object QuestionResponse()
         {
-            get { return Type.GetExpressionResponse(Answer.Responses); }
+            return Type.Inputs;
         }
+        //TODO: this might need to happen client side
+
     }
 }

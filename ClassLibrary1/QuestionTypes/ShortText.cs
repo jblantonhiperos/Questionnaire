@@ -10,7 +10,7 @@ namespace Models.QuestionTypes
     public class ShortText : IQuestionType
     {
         public int QuestionLength = 10;
-        public List<InputType> Inputs { get; set; }
+        public List<IInputType> Inputs { get; set; }
 
         public bool IsValid()
         { 

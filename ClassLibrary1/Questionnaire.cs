@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Element
+    public class Questionnaire
     {
         public string Name { get; set; }
-        public Expression ScoreExpression { get; set; }
-        public Expression ConditionExpression { get; set; }
-        public  object ExpressionResponse;
-
+        public IOrderedEnumerable<Section> Sections { get; set; }
+        public bool IsComplete { get; set; }
     }
 }

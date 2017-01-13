@@ -50,21 +50,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Answer.cs" />
-    <Compile Include="ElementInstance.cs" />
     <Compile Include="Element.cs" />
     <Compile Include="Expression.cs" />
+    <Compile Include="IQuestionType.cs" />
+    <Compile Include="QuestionTypes\ShortText.cs" />
     <Compile Include="Section.cs" />
-    <Compile Include="InputType.cs" />
+    <Compile Include="IInputType.cs" />
     <Compile Include="InputTypes\NumberBox.cs" />
     <Compile Include="InputTypes\Textbox.cs" />
     <Compile Include="Question.cs" />
-    <Compile Include="Questionaire.cs" />
+    <Compile Include="Questionnaire.cs" />
     <Compile Include="Response.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WorkflowDefinition.cs" />
-    <Compile Include="WorkflowInstance.cs" />
     <Compile Include="Workflow.cs" />
   </ItemGroup>
   <ItemGroup>

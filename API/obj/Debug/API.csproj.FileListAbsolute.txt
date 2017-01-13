@@ -61,6 +61,6 @@ c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\API\bin\Sy
 c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\API\obj\Debug\API.csprojResolveAssemblyReference.cache
 c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\API\obj\Debug\API.dll
 c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\API\obj\Debug\API.pdb
-c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\API\bin\ClassLibrary1.dll
 c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\API\bin\ExpressionEvaluator.dll
-c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\API\bin\ClassLibrary1.pdb
+C:\Users\jblanton\Documents\Visual Studio 2013\Projects\ClassLibrary1\API\bin\Models.dll
+C:\Users\jblanton\Documents\Visual Studio 2013\Projects\ClassLibrary1\API\bin\Models.pdb

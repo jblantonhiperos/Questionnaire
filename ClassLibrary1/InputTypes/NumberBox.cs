@@ -7,14 +7,17 @@ using Models;
 
 namespace Models.InputTypes
 {
-    public class NumberBox : InputType
+    public class NumberBox : IInputType
     {
-        public override bool IsValid(object input)
+        public string TypeName { get; set; }
+        public Settings Settings { get; set; }
+
+        public  bool IsValid(object input)
         {
             float throwaway;
             return float.TryParse(input.ToString(), out throwaway);
         }
-        public override object GetExpressionResponse(List<Response> responses)
+        public  object GetExpressionResponse(List<Response> responses)
         {
             return responses.FirstOrDefault(i => i.Name == "Number").Value;
         }

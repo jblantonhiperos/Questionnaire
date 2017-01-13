@@ -1,8 +1,8 @@
-c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
-c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
 c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\Models.csprojResolveAssemblyReference.cache
-c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
-c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
 c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\Antlr3.Runtime.dll
 c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\ExpressionEvaluator.dll
 c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\jblanton\Documents\Visual Studio 2013\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\Models.dll
+C:\Users\jblanton\Documents\Visual Studio 2013\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\Models.pdb
+C:\Users\jblanton\Documents\Visual Studio 2013\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\Models.dll
+C:\Users\jblanton\Documents\Visual Studio 2013\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\Models.pdb

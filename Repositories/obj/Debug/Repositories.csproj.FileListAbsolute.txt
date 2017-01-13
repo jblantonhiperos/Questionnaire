@@ -1,0 +1,8 @@
+c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\Repositories\obj\Debug\Repositories.csprojResolveAssemblyReference.cache
+c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\Repositories\bin\Debug\Repositories.dll
+c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\Repositories\bin\Debug\Repositories.pdb
+c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\Repositories\obj\Debug\Repositories.dll
+c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\Repositories\obj\Debug\Repositories.pdb
+c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\Repositories\bin\Debug\Antlr3.Runtime.dll
+c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\Repositories\bin\Debug\ExpressionEvaluator.dll
+c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\Repositories\bin\Debug\Antlr3.Runtime.pdb

@@ -3,3 +3,9 @@ C:\Users\kpetrella\Desktop\Questionnaire\QuestionnaireModels\bin\Debug\Questionn
 C:\Users\kpetrella\Desktop\Questionnaire\QuestionnaireModels\bin\Debug\QuestionnaireModels.pdb
 C:\Users\kpetrella\Desktop\Questionnaire\QuestionnaireModels\obj\Debug\QuestionnaireModels.exe
 C:\Users\kpetrella\Desktop\Questionnaire\QuestionnaireModels\obj\Debug\QuestionnaireModels.pdb
+C:\Questionnaire\Questionnaire\QuestionnaireModels\obj\Debug\QuestionnaireModels.csprojResolveAssemblyReference.cache
+C:\Questionnaire\Questionnaire\QuestionnaireModels\obj\Debug\QuestionnaireModels.exe
+C:\Questionnaire\Questionnaire\QuestionnaireModels\obj\Debug\QuestionnaireModels.pdb
+C:\Questionnaire\Questionnaire\QuestionnaireModels\bin\Debug\QuestionnaireModels.exe.config
+C:\Questionnaire\Questionnaire\QuestionnaireModels\bin\Debug\QuestionnaireModels.exe
+C:\Questionnaire\Questionnaire\QuestionnaireModels\bin\Debug\QuestionnaireModels.pdb

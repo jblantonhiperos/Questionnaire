@@ -3,25 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using QuestionnaireModels;
 using QuestionnaireModels.InputTypes;
+
 
 namespace QuestionnaireModels.QuestionTypes
 {
-    public class ShortText : IQuestionType
+    public class RankText:IQuestionType
     {
-        public int QuestionLength = 10;
         public List<IInputType> Inputs { get; set; }
 
-        public bool IsValid(Answer answer)
+        public bool IsValid(Answer input)
         {
-            return Inputs.All(i => i.IsValid(answer));
-        }
-    
-        public ShortText()
-        {
-            Inputs.Add(new Textbox());
+            return Inputs.All(i => i.IsValid(input));
         }
 
+        public RankText()
+        {
+            Inputs=new List<IInputType>
+            {
+                new NumberBox(),
+                new Textbox() 
+            };
+        }
     }
 }

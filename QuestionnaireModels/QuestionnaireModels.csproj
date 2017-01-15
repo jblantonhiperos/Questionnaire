@@ -57,6 +57,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Question.cs" />
     <Compile Include="Questionnaire.cs" />
+    <Compile Include="QuestionTypeSettings\ShortTextSettings.cs" />
+    <Compile Include="QuestionTypes\RankText.cs" />
     <Compile Include="QuestionTypes\ShortText.cs" />
     <Compile Include="Response.cs" />
     <Compile Include="Section.cs" />

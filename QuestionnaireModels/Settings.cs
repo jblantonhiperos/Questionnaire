@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace QuestionnaireModels
 {
-    public class Settings
+    public interface ISettings
     {
-        public Dictionary<string, object> Properties { get; set; }
     }
 }

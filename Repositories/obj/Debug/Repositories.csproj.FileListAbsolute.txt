@@ -6,3 +6,13 @@ c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\Repositori
 c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\Repositories\bin\Debug\Antlr3.Runtime.dll
 c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\Repositories\bin\Debug\ExpressionEvaluator.dll
 c:\users\jblanton\documents\visual studio 2013\Projects\ClassLibrary1\Repositories\bin\Debug\Antlr3.Runtime.pdb
+C:\Questionnaire\Questionnaire\Repositories\bin\Debug\Repositories.dll
+C:\Questionnaire\Questionnaire\Repositories\bin\Debug\Repositories.pdb
+C:\Questionnaire\Questionnaire\Repositories\bin\Debug\Antlr3.Runtime.dll
+C:\Questionnaire\Questionnaire\Repositories\bin\Debug\ExpressionEvaluator.dll
+C:\Questionnaire\Questionnaire\Repositories\bin\Debug\Models.dll
+C:\Questionnaire\Questionnaire\Repositories\bin\Debug\Models.pdb
+C:\Questionnaire\Questionnaire\Repositories\bin\Debug\Antlr3.Runtime.pdb
+C:\Questionnaire\Questionnaire\Repositories\obj\Debug\Repositories.csprojResolveAssemblyReference.cache
+C:\Questionnaire\Questionnaire\Repositories\obj\Debug\Repositories.dll
+C:\Questionnaire\Questionnaire\Repositories\obj\Debug\Repositories.pdb

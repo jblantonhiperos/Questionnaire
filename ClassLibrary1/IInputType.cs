@@ -10,7 +10,7 @@ namespace Models
     {
         string TypeName { get; set; }
         ISettings Settings { get; set; }
-        bool IsValid(object input);
+        bool IsValid(Answer input);
         object GetExpressionResponse(List<Response> response);
     }
 }

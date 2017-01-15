@@ -53,6 +53,8 @@
     <Compile Include="Element.cs" />
     <Compile Include="Expression.cs" />
     <Compile Include="IQuestionType.cs" />
+    <Compile Include="QuestionTypeSettings\ShortTextSettings.cs" />
+    <Compile Include="QuestionTypes\RankText.cs" />
     <Compile Include="QuestionTypes\ShortText.cs" />
     <Compile Include="Section.cs" />
     <Compile Include="IInputType.cs" />

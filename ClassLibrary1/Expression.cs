@@ -10,31 +10,6 @@ namespace Models
 {
     public class Expression
     {
-        public Expression()
-        {
-            //ExpressionFormula = "1+2+3";
-            //Dependencies = new List<Element>
-            //{
-            //    new ElementInstance()
-            //    {
-            //        ConditionExpression = null,
-            //        Name = "a",
-            //        ScoreExpression = null,
-            //        Type = new NumberBox(),
-            //        Answer = new Answer
-            //        {
-            //            CalculatedScore = 0,
-            //            IsDelegated = false,
-            //            IsSubmitted = true,
-            //            Respondant = null,
-            //            Responses = new List<Response>
-            //            {
-            //                new Response{Name="Number",Value="3"}
-            //            }
-            //        }
-            //    }
-            //};
-        }
         
         public string ExpressionFormula { get; set; }
         public List<Element> Dependencies { get; set; }
@@ -49,7 +24,7 @@ namespace Models
 
         public TypeRegistry ResolveDependencies()
         {
-            // TODO if not instance
+            // TODO if not valid
             // TODO if not answered
             TypeRegistry reg = new TypeRegistry();
             

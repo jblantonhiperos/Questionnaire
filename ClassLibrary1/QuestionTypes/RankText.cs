@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Models.InputTypes;
 
 namespace Models.QuestionTypes
 {
@@ -13,6 +14,15 @@ namespace Models.QuestionTypes
         public bool IsValid(Answer input)
         {
             return Inputs.All(i => i.IsValid(input));
+        }
+
+        public RankText()
+        {
+            Inputs=new List<IInputType>
+            {
+                new NumberBox(),
+                new Textbox() 
+            };
         }
     }
 }

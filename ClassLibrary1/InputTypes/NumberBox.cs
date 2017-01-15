@@ -12,11 +12,13 @@ namespace Models.InputTypes
         public string TypeName { get; set; }
         public ISettings Settings { get; set; }
 
-        public  bool IsValid(object input)
+        public bool IsValid(Answer answer)
         {
             float throwaway;
-            return float.TryParse(input.ToString(), out throwaway);
+            return answer.Responses.Any(i => i.Name == "Number")
+                   && float.TryParse(answer.Responses.First(i => i.Name == "Number").Value.ToString(), out throwaway);
         }
+
         public  object GetExpressionResponse(List<Response> responses)
         {
             return responses.FirstOrDefault(i => i.Name == "Number").Value;

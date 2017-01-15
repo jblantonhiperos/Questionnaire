@@ -12,9 +12,9 @@ namespace Models.InputTypes
         public string TypeName { get; set; }
         public ISettings Settings { get; set; }
 
-        public bool IsValid(object input)
+        public bool IsValid(Answer answer)
         {
-            return true;
+            return answer.Responses.Any(i => i.Name == "Text"); ;
         }
         public object GetExpressionResponse(List<Response> responses)
         {

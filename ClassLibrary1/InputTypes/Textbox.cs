@@ -10,7 +10,7 @@ namespace Models.InputTypes
     public class Textbox : IInputType
     {
         public string TypeName { get; set; }
-        public Settings Settings { get; set; }
+        public ISettings Settings { get; set; }
 
         public bool IsValid(object input)
         {

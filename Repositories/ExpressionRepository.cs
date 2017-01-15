@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Models;
 
 
 namespace Repositories
 {
-    public class ExpressionRepository
+    public interface IExpressionRepository
     {
-        public void EvaluateExpression()
-        {
-            
-        }
+        Expression Get(int id);
+        void Save();
     }
 }

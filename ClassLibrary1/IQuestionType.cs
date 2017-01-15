@@ -9,7 +9,7 @@ namespace Models
     public interface IQuestionType
     {
         List<IInputType> Inputs { get; set; }
-        bool IsValid();
+        bool IsValid(Answer answer);
 
     }
 }

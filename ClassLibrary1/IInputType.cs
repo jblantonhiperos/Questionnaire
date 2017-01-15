@@ -9,7 +9,7 @@ namespace Models
     public interface IInputType
     {
         string TypeName { get; set; }
-        Settings Settings { get; set; }
+        ISettings Settings { get; set; }
         bool IsValid(object input);
         object GetExpressionResponse(List<Response> response);
     }

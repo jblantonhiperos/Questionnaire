@@ -3,34 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Models;
 
 namespace Repositories
 {
-    public class AnswerRepository
+    public interface IAnswerRepository
     {
-        public void Save()
-        {
-            
-        }
-
-        //public bool IsFormatValid()
-        //{
-            
-        //}
-
-        //public bool IsValid()
-        //{
-            
-        //}
-
-        //public string SaveIfValid()
-        //{
-        //    if (!IsValid())
-        //    {
-        //        return "Failed to save, input not valid";
-        //    }
-        //    Save();
-        //    return "Save successful";
-        //}
+        void Save(Answer answer);
+        Answer Get(int id);
     }
 }

@@ -192,7 +192,9 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\AnswerController.cs" />
     <Compile Include="Controllers\ExpressionController.cs" />
+    <Compile Include="Controllers\QuestionController.cs" />
     <Compile Include="Controllers\QuestionnaireController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -262,9 +264,9 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\Models.csproj">
-      <Project>{5e48eb0c-d5a1-44f0-832a-4fbd6f2d88f6}</Project>
-      <Name>Models</Name>
+    <ProjectReference Include="..\QuestionnaireModels\QuestionnaireModels.csproj">
+      <Project>{55058b17-dcca-4fa7-8252-a050a1969939}</Project>
+      <Name>QuestionnaireModels</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

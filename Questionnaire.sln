@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "ClassLibrary1\Models.csproj", "{5E48EB0C-D5A1-44F0-832A-4FBD6F2D88F6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{FDFC86FD-776C-4DEF-86D0-C79DAB5C1410}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{431A6DB5-AEA4-4147-AF74-E265CB91B212}"
@@ -26,10 +24,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5E48EB0C-D5A1-44F0-832A-4FBD6F2D88F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E48EB0C-D5A1-44F0-832A-4FBD6F2D88F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E48EB0C-D5A1-44F0-832A-4FBD6F2D88F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E48EB0C-D5A1-44F0-832A-4FBD6F2D88F6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FDFC86FD-776C-4DEF-86D0-C79DAB5C1410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FDFC86FD-776C-4DEF-86D0-C79DAB5C1410}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDFC86FD-776C-4DEF-86D0-C79DAB5C1410}.Release|Any CPU.ActiveCfg = Release|Any CPU

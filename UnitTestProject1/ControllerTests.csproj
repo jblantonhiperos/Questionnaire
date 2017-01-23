@@ -71,10 +71,6 @@
       <Project>{fdfc86fd-776c-4def-86d0-c79dab5c1410}</Project>
       <Name>API</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ClassLibrary1\Models.csproj">
-      <Project>{5e48eb0c-d5a1-44f0-832a-4fbd6f2d88f6}</Project>
-      <Name>Models</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
